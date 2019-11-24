@@ -1,0 +1,125 @@
+/* Styling for all 3 pages */
+
+html{ 
+  margin: 0; 
+  padding: 0; 
+}  
+
+body {
+    margin: 0;
+    padding: 0; 
+    background-color: lightblue;
+}    
+
+ .sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: coral;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidenav a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidenav a.animate {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidenav a:hover:not(.animate) {
+    background-color: #555;
+    color: white;
+  }
+  
+  .content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidenav {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidenav a {float: left;}
+    .content {margin-left: 0;}  
+
+  } 
+  
+  @media screen and (max-width: 400px) {
+    .sidenav a {
+      text-align: center;
+      float: none;
+    }
+  }   
+
+  h1{ 
+      text-align: center; 
+      font-size: 100 px; 
+      font-family: "Comic Sans MS", cursive, sans-serif;
+  } 
+
+  h2{ 
+      text-align: right; 
+      font-size: 60 px; 
+  }  
+
+  section > p {  
+    font-size: 35px;
+  }   
+
+  /* Styling for the "Home" Page */ 
+
+  .profile{ 
+    text-align: center;
+  }
+
+  /* Styling for the "Get To Know Me" Page" */
+
+  .Benz{  
+    text-align: center; 
+  } 
+
+  section{ 
+    float: center;
+  }   
+
+  ol{ 
+    font-size: 35px; 
+    font-style: italic; 
+  } 
+
+  #info{ 
+    font-size: 3px; 
+  } 
+
+  #enlargetxt{ 
+    font-size: 20px;
+  } 
+ 
+
+  /* CSS for the "Contact" page */
+
+  legend{ 
+    background-color: gray;
+  }
+
+  fieldset{ 
+    font-size: 20px; 
+    background-color: yellow;
+  } 
+
+  #message{ 
+    font-size: 50px;  
+    color: red;
+  }
+  
